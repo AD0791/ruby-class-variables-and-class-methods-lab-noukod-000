@@ -13,17 +13,17 @@ class Song
   end
   
   def self.count
-    return @@count
+     @@count
   end
   
   def self.genres
     @@genres << genre
-    return @@genres.uniq
+    @@genres.uniq
   end
   
   def self.artist
-    @@artists << @artist
-    return @@artists.uniq
+    @@artists << artist
+    @@artists.uniq
   end
   
   def self.genre_count
