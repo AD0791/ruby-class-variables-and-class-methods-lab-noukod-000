@@ -21,7 +21,7 @@ class Song
     @@genres.uniq
   end
   
-  def self.artist
+  def self.artists
     @@artists << artist
     @@artists.uniq
   end
